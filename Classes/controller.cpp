@@ -35,6 +35,7 @@ Controller g_aTestNames[] = {
     //     violators will be prosecuted
     //
 	{ "learning", [](){return new LearningTestScene(); } },
+	{ "Node: Sprite3D", [](){  return new Sprite3DTestScene(); } },
 
 	{ "ActionManager", [](){return new ActionManagerTestScene(); } },
 	{ "Actions - Basic", [](){ return new ActionsTestScene(); } },
@@ -80,7 +81,6 @@ Controller g_aTestNames[] = {
 	{ "Node: Scene", [](){return new SceneTestScene();} },
 	{ "Node: Spine", []() { return new SpineTestScene(); } },
 	{ "Node: Sprite", [](){return new SpriteTestScene(); } },
-    { "Node: Sprite3D", [](){  return new Sprite3DTestScene(); }},
 	{ "Node: TileMap", [](){return new TileMapTestScene(); } },
 	{ "Node: FastTileMap", [](){return new TileMapTestSceneNew(); } },
 	{ "Node: Text Input", [](){return new TextInputTestScene(); } },
