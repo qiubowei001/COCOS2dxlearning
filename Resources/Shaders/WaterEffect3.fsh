@@ -1,7 +1,7 @@
 varying vec4 v_fragmentColor;
 varying vec2 v_texCoord;
 
-float waveHeight(vec2p){
+float waveHeight(vec2 p){
     float timeFactor=4.0;
     float texFactor=12.0;
     float ampFactor=0.01;
